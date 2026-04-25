@@ -65,22 +65,23 @@ Follow these rules when designing REST APIs:
 
 ```js
 // Versioning
-app.use("/api/", route) // ❌
-app.use("/api/v1", route) // ✅
+app.use("/api/", route)   // Bad
+app.use("/api/v1", route) // Good
 
 // Nouns instead of verbs
-"/api/v1/get-users" // ❌
-"/api/v1/users" // ✅
+"/api/v1/get-users" // Bad
+"/api/v1/users"    // Good
 
 // Hierarchical resource paths
-"/api/v1/users/:id" // ✅
+"/api/v1/users/:id" // Good
 
 // Hyphens for readability
-"/api/v1/blogs/this-is-my-first-blog-post" // ✅
+"/api/v1/blogs/this-is-my-first-blog-post" // Good
 
 // Underscores should not be used
-"/api/v1/blogs/this_is_my_first_blog_post" // ❌
+"/api/v1/blogs/this_is_my_first_blog_post" // Bad
 
 // Lowercase paths
-"api.example.com/blogs/how-to-build-agents" // ✅
-"api.example.com/blogs/How-To-Build-Agents" // ❌
+"api.example.com/blogs/how-to-build-agents" // Good
+"api.example.com/blogs/How-To-Build-Agents" // Bad
+```

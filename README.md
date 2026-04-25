@@ -1,5 +1,5 @@
 ## Reference
-- [agent skils](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
+- [agent skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
 
 ## Project structure
 
