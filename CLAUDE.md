@@ -8,11 +8,11 @@ This repo holds **agent skills** — focused markdown reference guides loaded on
 
 ## Layout
 
-| Directory | Contents |
-|-----------|----------|
-| [backend/](backend/) | Backend skills (e.g. API design) |
+| Directory              | Contents                                            |
+| ---------------------- | --------------------------------------------------- |
+| [backend/](backend/)   | Backend skills (e.g. API design)                    |
 | [frontend/](frontend/) | Frontend skills (e.g. UI components, design system) |
-| [docs/](docs/) | Documentation skills (e.g. API documentation) |
+| [docs/](docs/)         | Documentation skills (e.g. API documentation)       |
 
 See [README.md](README.md) for the full skill index and authoring guide.
 
@@ -45,3 +45,7 @@ See [README.md](README.md) for the full skill index and authoring guide.
 ### Frontend
 
 - **Always confirm the design system before building UI.** If the project has no documented design system components, ask the user about **Colors** and **Typography** before writing any frontend code.
+
+## Text Guidelines
+
+- **Do not use em dashes.**
